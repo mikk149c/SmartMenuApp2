@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SmartMenuLibrary">
-      <HintPath>..\..\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\netstandard1.4\SmartMenuLibrary.dll</HintPath>
+    <Reference Include="SmartMenuLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\netstandard1.4\SmartMenuLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
