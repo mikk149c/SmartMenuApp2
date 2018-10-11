@@ -8,5 +8,6 @@ namespace SmartMenuApp2
 {
     class CalculatorClass
     {
+
     }
 }
