@@ -18,7 +18,7 @@ namespace SmartMenuApp2
 		private void Run()
 		{
 			SmartMenu menu = new SmartMenu();
-			menu.LoadMenu("TestMenu.txt");
+			menu.LoadMenu("TestMenu.txt", new Binding());
 			menu.Activate();
 		}
 	}
