@@ -7,8 +7,12 @@ using SmartMenuLibrary;
 
 namespace SmartMenuApp2
 {
-	class Binding : iBinding
+	class Binding : IBinding
 	{
+		public void Call(string id)
+		{
+
+		}
 
 	}
 }
