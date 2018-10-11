@@ -70,7 +70,7 @@ namespace SmartMenuApp2
 			}
 		}
 
-		bool tryGetDouble(out double num)
+		private bool tryGetDouble(out double num)
 		{
 			Console.ForegroundColor = ConsoleColor.Red;
 			bool value = double.TryParse(Console.ReadLine(), out num);
@@ -78,7 +78,7 @@ namespace SmartMenuApp2
 			return value;
 		}
 
-		double[] getDoubleArray()
+		private double[] getDoubleArray()
 		{
 			double[] doubleArray = new double[0];
 			double num;
